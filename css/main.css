@@ -100,7 +100,7 @@ form button {
   text-transform: uppercase;
 }
 
-[role="site-footer"] {
+footer {
   padding: 2rem 0;
 }
 
@@ -112,4 +112,14 @@ button:hover{
 /* Adds style when button is being pressed */
 button:focus{
   font-weight: bold;
+}
+
+/* Indenting address paragraph */
+.name,
+.PostalAddress{
+  padding-left: 1.5rem;
+}
+
+.name{
+  font-size: 1.2rem;
 }
