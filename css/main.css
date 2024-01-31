@@ -27,6 +27,10 @@ img {
   width: 100%;
 }
 
+.owner li{
+  list-style: none;
+}
+
 /* Adding skip links */
 .skip-links{
   list-style: none;
@@ -109,6 +113,26 @@ button:hover{
   text-decoration: underline;
 }
 
+/* Adds style for footer skip link */
+    
+.skip-link-footer {
+  position: absolute;
+  margin-bottom: 3em;
+  right:10em;
+  border:1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: .5em 1em;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}   
+
+.skip-link-footer:focus{
+  text-decoration: underline;
+  background-color: black;
+  color:#F5F5F5;
+}
 /* Adds style when button is being pressed */
 button:focus{
   font-weight: bold;
