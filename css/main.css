@@ -128,11 +128,16 @@ button:hover{
   border-top-left-radius: 10px;
 }   
 
+.skip-link-footer:hover{
+  text-decoration: underline;
+}
+
 .skip-link-footer:focus{
   text-decoration: underline;
   background-color: black;
   color:#F5F5F5;
 }
+
 /* Adds style when button is being pressed */
 button:focus{
   font-weight: bold;
