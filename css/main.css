@@ -128,10 +128,12 @@ button:hover{
   border-top-left-radius: 10px;
 }   
 
+/* Hover state */
 .skip-link-footer:hover{
   text-decoration: underline;
 }
 
+/* Active state */
 .skip-link-footer:focus{
   text-decoration: underline;
   background-color: black;
